@@ -95,7 +95,7 @@
     </div>
     <p class="txt-center">le but est d’éviter aux non-fumeurs, une consommation passive. Autre argument : limiter la liberté des fumeurs et les pousser à arrêter appuie la mesure. C’est à ce moment que la cigarette passe d’une pratique anodine à un danger public. </p>
   </div>
-  <img class="sticky-cigarette" src="./2005 26_ cigarette ( police précise).png" alt="smoke cigarette">
+
 </section>
 
     <!-- Lapub Section -->
@@ -168,7 +168,7 @@
   </section>
 
   <!-- Paquets Section -->
-<section>
+<section class="sticky-smoke">
   <div class="container-medium detail-wrapper">
     <div class="year-header">
       <div class="year-number">
@@ -186,6 +186,7 @@
       </div>
     </div>
   </div>
+  <img class="sticky-cigarette" src="./2020 29_ cigarette.png" alt="smoke cigarette">
 </section>
 
 
