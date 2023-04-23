@@ -20,7 +20,7 @@
 </script>
 
 <main>
-  <section class="hero-section">
+  <section class="hero-section sticky-smoke">
     <video autoplay loop muted plays-inline class="background-clip">
      <!-- <source src="https://media.publit.io/file/Projets/scrollytelling/les-belges-et-le-tabac.mp4" type="video/mp4"> -->
      <source src="./les belges et le tabac.mp4" type="video/mp4">
@@ -35,10 +35,11 @@
       <span></span>
       <span></span>
     </div>
+    <img class="sticky-cigarette" src="./1997 30_ cigarette.png" alt="smoke cigarette">
   </section>
 
   <!-- Section Data -->
-  <section>
+  <section class="sticky-smoke">
     <div class="container data-container">
       <div class="year-header">
         <div class="year-number">
@@ -49,9 +50,10 @@
       </div>
         <p>14 ans, c’était l’âge parfait pour entamer une longue relation avec la cigarette.</p>
     </div>
+    <img class="sticky-cigarette" src="./2004 27_ cigarette.png" alt="smoke cigarette">
   </section>
 
-  <section>
+  <section class='sticky-smoke'>
 <!--     <div class='hero'>
     </div> -->
     <div class="section-container">
@@ -71,14 +73,15 @@
         <!-- <Scatterplot step={value} /> -->
       </div>
     </div>
+    <img class="sticky-cigarette" src="./2018 20_ cigarette.png" alt="smoke cigarette">
 </section>
 
     <!-- Datail Section -->
- <section class="detail-section">
+ <section class="detail-section sticky-smoke">
   <div class="container-medium detail-wrapper">
     <div class="year-header">
       <div class="year-number">
-        2015
+        2005
       </div>
       <h2 class="heading-year">Manger et fumer en même temps : c’est terminé</h2>
     </div>
@@ -92,6 +95,7 @@
     </div>
     <p class="txt-center">le but est d’éviter aux non-fumeurs, une consommation passive. Autre argument : limiter la liberté des fumeurs et les pousser à arrêter appuie la mesure. C’est à ce moment que la cigarette passe d’une pratique anodine à un danger public. </p>
   </div>
+  <img class="sticky-cigarette" src="./2005 26_ cigarette ( police précise).png" alt="smoke cigarette">
 </section>
 
     <!-- Lapub Section -->
@@ -534,4 +538,17 @@
     left: 20%;
     width: 550px;
   }
+
+  .sticky-smoke {
+    position: relative;
+  }
+
+  .sticky-cigarette {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: "10px";
+    opacity: .9;
+  }
+
 </style>
