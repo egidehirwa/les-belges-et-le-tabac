@@ -28,6 +28,7 @@
     <div class="container content-width">
       <h1>La cigarette fait-elle toujours un tabac chez les Belges?</h1>
       <p>Historique de 20 ans de combat</p>
+      <p>En 1997, 30% de la population de plus de 15 ans fume. Au cours du temps, les différents gouvernements ont tenté de faire diminuer ce taux. C’est dans les années 2000 que les autorités ont pris conscience que le tabac était un vrai problème de santé publique. Conséquences : interdictions sur les libertés des fumeurs, sensibilisation auprès des potentiels débutants ainsi qu’aux fumeurs confirmés et augmentation du prix des cigarettes. Comment ces différentes mesures ont impactés le taux de fumeurs dans notre pays ? Scrolle pour le découvrir</p>
     </div>
     <div class="arrow">
       <span></span>
@@ -39,9 +40,14 @@
   <!-- Section Data -->
   <section>
     <div class="container data-container">
-      <h2>2004 : Fini d'envoyer le gamin chercher
-        ses clopes</h2>
-        <p>14 ans, c’est l’âge parfait pour entamer une longue relation avec la cigarette.</p>
+      <div class="year-header">
+        <div class="year-number">
+          2004
+        </div>
+        <h2>Fini d'envoyer le gamin chercher
+          ses clopes</h2>
+      </div>
+        <p>14 ans, c’était l’âge parfait pour entamer une longue relation avec la cigarette.</p>
     </div>
   </section>
 
@@ -148,20 +154,17 @@
         <h2 class="heading-year">La majorité des fumeurs sont comme Nicolas</h2>
       </div>
     </div>
-    <p class="txt-center">Je m’appelle Nicolas, je suis wallon et j’ai 35 ans. Je fume depuis un moment maintenant. Alors, je ne suis pas capable de me passer de mon paquet de 20 cigarettes par jour.  </p>
     <div>
       <div class="detail-content">
         <div class="detail-text">
-          <p>Comme plus de 70% des Belges, j’ai déjà essayé d’arrêter de fumer. Après plus de 20 ans de fidélité, pas facile de rompre le lien. 
-          </p>
-        </div>
-        <img width="300px" src="./Nicolas fumeur type.png" alt="Nicolas le fumeur type qui fume">
+          <img class="bulle" src="./Bulle nicolas.png" alt="bulle du fumeur Nicolas">
+        <img  width="550px" src="./Nicolas fumeur type.png" alt="Nicolas le fumeur type qui fume">
       </div>
     </div>
   </section>
 
   <!-- Paquets Section -->
-<section class="detail-section">
+<section>
   <div class="container-medium detail-wrapper">
     <div class="year-header">
       <div class="year-number">
@@ -181,25 +184,12 @@
   </div>
 </section>
 
-<!-- Smoke Section -->
-<section class="detail-section">
-  <div class="container-medium detail-wrapper">
-    <h2 class="heading-year txt-center">Fumer oui, tous les jours peut-être pas</h2>
-    <div class="detail-content">
-      <img width="450px" src="./Images choc.jpeg" alt="images choc de la cigarette">
-      <div class="detail-text">
-        <p>Certains en font la collection, les photos choquantes placées en avant et en arrière des paquets de cigarettes ou de tabac. C’est en 2007 qu’elles deviennent obligatoires.</p> 
-        <p>Des photos couleurs saisissantes de poumons sanguinolents ou de cœurs ouverts. Elles couvrent 65% du paquet.</p>
-        <p>Les photos sont destinées tant à dissuader de commencer à fumer qu'à inciter à abandonner cette très mauvaise habitude. Ces photos sont accompagnées de l’avertissement “fumer tue” et du numéro du TabacStop.
-        </p>
-      </div>
-    </div>
-    <p class="txt-center">le but est d’éviter aux non-fumeurs, une consommation passive. Autre argument : limiter la liberté des fumeurs et les pousser à arrêter appuie la mesure. C’est à ce moment que la cigarette passe d’une pratique anodine à un danger public. </p>
-  </div>
-</section>
 
 <!-- Scroll Section -->
 <section>
+  <div class="container-medium margin-top">
+    <h2 class="heading-year txt-center">Fumer oui, tous les jours peut-être pas</h2>
+  </div>
   <div>
     <div class="section-container">
       <div class="steps-container">
@@ -484,19 +474,20 @@
   }
 
   .heading-year {
-    max-width: 25ch;
+    max-width: 45ch;
   }
 
   .detail-content {
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 4rem;
   }
 
   .detail-section {
-    padding: 200px 0; 
+    padding: 100px 0; 
+    position: relative;
   }
 
   .detail-wrapper {
@@ -532,5 +523,15 @@
 
   }
 
+  .margin-top {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
 
+  .bulle {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 550px;
+  }
 </style>
